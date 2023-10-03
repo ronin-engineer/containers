@@ -2,6 +2,7 @@ version: '3.8'
 
 services:
   mysql:
+    container_name: mysql5.7
     image: docker.io/bitnami/mysql:8.1
     ports:
       - '3306:3306'
